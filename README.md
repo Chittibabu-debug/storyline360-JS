@@ -2,7 +2,8 @@
 
 Click-to-click matching interaction for Articulate Storyline 360 (single JavaScript file).
 
-- `matching-master.js` - the engine. Loaded once from the slide master.
+- `matching-master.js` - the engine with the built-in debug panel (Ctrl + Shift + E). Loaded once from the slide master.
+- `matching-core.js` - the same engine as a clean core build: no debug panel, signature-protected (v1.1.0).
 - Each slide only sets its pairs, for example:
 
 ```js
